@@ -1,0 +1,9 @@
+.centered{
+    width: 100%; /*set to 100% so text-align will fall in the center of the image*/
+    text-align: center; /*text will be horizontally centered in the image*/
+    margin-top: 25%;
+}
+
+.text{
+    font-family: 'Times New Roman';
+}
