@@ -7,3 +7,10 @@ function writeParagraph() {
 }
 
 myButton.addEventListener("click", writeParagraph);
+
+myText.addEventListener("keyup", function(event) {
+    if (event.keyCode === 13) {
+     event.preventDefault();
+     myButton.click();
+    }
+});
